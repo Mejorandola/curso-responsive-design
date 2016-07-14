@@ -25,7 +25,10 @@ nav ul{
 	padding:0;
 }
 nav ul li{
-	box-sizing:border-box;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	-o-box-sizing: border-box;      /* Opera */
+	box-sizing:border-box; 		/* IE */
 	display:inline-block;
 	font-size:16px;
 	padding:10px;
